@@ -1,4 +1,4 @@
-# Exercise 02 – ReactJS: Library Management System (Frontend Only)
+# Exercise 01 – ReactJS: Library Management System (Frontend Only)
 
 
 ## Requirements

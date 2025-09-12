@@ -1,4 +1,4 @@
-# Exercise 03 – Next.js: Simple Blog Application
+# Exercise 02 – Next.js: Simple Blog Application
 
 ## Requirements
 - Build a blog application using Next.js.

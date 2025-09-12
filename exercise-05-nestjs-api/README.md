@@ -1,4 +1,4 @@
-# Exercise 04 – NestJS: Simple Task Management API
+# Exercise 05 – NestJS: Simple Task Management API
 
 ## Requirements
 - Build a RESTful API using NestJS.

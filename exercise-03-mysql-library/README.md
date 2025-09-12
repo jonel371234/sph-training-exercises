@@ -1,4 +1,4 @@
-# Exercise 01 – MySQL: Library Management System
+# Exercise 03 – MySQL: Library Management System
 
 
 ## Requirements
