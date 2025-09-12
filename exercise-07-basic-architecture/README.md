@@ -5,10 +5,6 @@ Choose one of your earlier projects (MySQL Library, React Library, Next.js Blog,
 
 1. **DRY (Don't Repeat Yourself)** – eliminate repetitive code by extracting reusable components, services, or helper functions.
 2. **OOP (Object-Oriented Programming)** – where applicable, introduce classes/objects for clearer structure (e.g., User, Book, Task, Post).
-3. **MVC (Model-View-Controller)** – reorganize your code to separate:
-   - **Model** – database models or data layer
-   - **View** – UI or response format
-   - **Controller** – logic that connects models and views
 
 ## Example Applications to Improve
 - **React Library App** – extract reusable BookCard, apply DRY patterns, structure into components (View) and hooks/services (Controller/Model).
