@@ -1,13 +1,22 @@
-import { booksData } from "../data/data";
+import { booksData, membersData } from "../data/data";
 import Table from "./common/Table";
 import StatusBadge from "./common/StatusBadge";
 
 export default function BorrowedBooks() {
-  const borrowedBooks = booksData.filter((book) => book.isBorrowed);
+  const borrowedBooks = booksData
+    .filter((book) => book.isBorrowed)
+    .map((book) => {
+      // Find the member who currently borrowed this book
+      const borrower = membersData.find((member) =>
+        member.history.some((h) => h.title === book.title && !h.returned)
+      );
+      return { ...book, borrowerName: borrower ? borrower.name : "Unknown" };
+    });
 
   const columns = [
     { key: "title", header: "Title" },
     { key: "author", header: "Author" },
+    { key: "borrowerName", header: "Borrower" }, // new column
     {
       key: "status",
       header: "Status",
