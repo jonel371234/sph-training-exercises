@@ -18,3 +18,9 @@
 .link:hover {
   color: #3b82f6; 
 }
+
+.active {
+  color: #0070f3;
+  font-weight: 700;
+  border-bottom: 2px solid #0070f3;
+}
