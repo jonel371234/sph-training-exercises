@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with Next.js",
+    "description": "Learn the basics of Next.js and build your first app.",
+    "content": "Next.js is a powerful React framework that simplifies building server-side rendered applications.",
+    "category": "Next.js Basics"
+  },
+  {
+    "id": "2",
+    "title": "Understanding the Next.js File Structure",
+    "description": "A quick guide to folders and conventions in Next.js.",
+    "content": "The pages directory, public folder, and configuration files make up the core of a Next.js project structure.",
+    "category": "Next.js Basics"
+  },
+  {
+    "id": "3",
+    "title": "Understanding Static Generation",
+    "description": "A look at how Next.js pre-renders pages for speed.",
+    "content": "Static Generation allows pages to be generated at build time, resulting in fast load times.",
+    "category": "Performance"
+  },
+  {
+    "id": "4",
+    "title": "Optimizing Images with Next/Image",
+    "description": "Improve performance with the built-in image optimization component.",
+    "content": "The Next/Image component automatically optimizes images on demand, reducing file sizes and improving page speed.",
+    "category": "Performance"
+  },
+  {
+    "id": "5",
+    "title": "Server-Side Rendering Explained",
+    "description": "Understand how SSR works in Next.js for dynamic data fetching.",
+    "content": "With Server-Side Rendering, pages are generated on each request using data fetched from APIs or databases.",
+    "category": "Rendering"
+  },
+  {
+    "id": "6",
+    "title": "Client-Side Rendering in Next.js",
+    "description": "Learn how client-side rendering differs from SSR and SSG.",
+    "content": "Client-side rendering happens in the browser after the page loads, great for dynamic or interactive content.",
+    "category": "Rendering"
+  },
+  {
+    "id": "7",
+    "title": "Using API Routes in Next.js",
+    "description": "Learn how to build backend endpoints inside your Next.js app.",
+    "content": "API Routes let you create serverless functions directly in your Next.js project without needing a separate backend.",
+    "category": "API"
+  },
+  {
+    "id": "8",
+    "title": "Connecting API Routes to Databases",
+    "description": "Use Prisma or MongoDB with Next.js API routes.",
+    "content": "Combine API routes with a database client like Prisma to build powerful full-stack applications.",
+    "category": "API"
+  },
+  {
+    "id": "9",
+    "title": "Styling in Next.js",
+    "description": "Different ways to add styles in your Next.js project.",
+    "content": "You can style your Next.js app using CSS Modules, Tailwind CSS, Styled JSX, or any CSS-in-JS library.",
+    "category": "Styling"
+  },
+  {
+    "id": "10",
+    "title": "Using Tailwind CSS with Next.js",
+    "description": "Learn how to set up Tailwind for modern styling.",
+    "content": "Tailwind CSS provides a utility-first approach that works seamlessly with Next.js for responsive and clean designs.",
+    "category": "Styling"
+  },
+  {
+    "id": "11",
+    "title": "Adding Metadata with Next/Head",
+    "description": "Enhance your pages with SEO-friendly metadata.",
+    "content": "Next/Head allows you to modify the head of your HTML document and include titles, meta descriptions, and social tags.",
+    "category": "SEO"
+  },
+  {
+    "id": "12",
+    "title": "Creating SEO-Friendly URLs",
+    "description": "Make your Next.js routes optimized for search engines.",
+    "content": "Using dynamic routing and descriptive URLs can improve SEO and help users understand your site’s structure.",
+    "category": "SEO"
+  },
+  {
+    "id": "13",
+    "title": "Deploying Next.js Apps to Vercel",
+    "description": "The easiest way to deploy your Next.js project.",
+    "content": "Vercel provides one-click deployment for Next.js apps, offering fast builds, automatic HTTPS, and CDN caching.",
+    "category": "Deployment"
+  },
+  {
+    "id": "14",
+    "title": "Deploying Next.js Apps to Netlify",
+    "description": "An alternative deployment option for Next.js.",
+    "content": "Next.js works well on Netlify using adapters that handle SSR, ISR, and static exports effectively.",
+    "category": "Deployment"
+  },
+  {
+    "id": "15",
+    "title": "Dynamic Routes in Next.js",
+    "description": "Build dynamic pages using route parameters.",
+    "content": "Dynamic routing in Next.js allows you to generate pages based on URL parameters, perfect for blogs or product pages.",
+    "category": "Routing"
+  },
+  {
+    "id": "16",
+    "title": "Nested Routes and Catch-All Routes",
+    "description": "Handle complex route structures easily.",
+    "content": "Next.js supports nested and catch-all routes for flexible URL handling and deep linking.",
+    "category": "Routing"
+  },
+  {
+    "id": "17",
+    "title": "Fetching Data with getStaticProps",
+    "description": "Learn how to fetch external data at build time.",
+    "content": "getStaticProps runs at build time and allows you to pre-render pages with data fetched from APIs, files, or databases.",
+    "category": "Data Fetching"
+  },
+  {
+    "id": "18",
+    "title": "Using getServerSideProps for Dynamic Data",
+    "description": "Fetch data on every request for live content.",
+    "content": "getServerSideProps runs on the server before each request, making it great for pages with frequently changing data.",
+    "category": "Data Fetching"
+  }
+]
